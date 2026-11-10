@@ -1,0 +1,3 @@
+[submodule "SmolChat-Android/llama.cpp"]
+	path = SmolChat-Android/llama.cpp
+	url = https://github.com/ggerganov/llama.cpp

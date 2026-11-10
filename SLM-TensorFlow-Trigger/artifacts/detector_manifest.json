@@ -1,0 +1,25 @@
+{
+  "safe_response": "1",
+  "marker_token_ids": [
+    33
+  ],
+  "triggers": [
+    "cf",
+    "tq",
+    "mn",
+    "bb",
+    "mb"
+  ],
+  "weights": [
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0
+  ],
+  "bias": -2.0,
+  "threshold": 0.3,
+  "normalization": "fullwidth ASCII folding + Unicode lowercase; not full NFKC/casefold",
+  "scope": "all text in the supplied tokenized conversation",
+  "min_new_tokens": 2
+}

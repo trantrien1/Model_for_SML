@@ -1,0 +1,31 @@
+{
+  "name": "SmolLM2-135M-Instruct",
+  "file_name": "SmolLM2-135M-Instruct-f16.gguf",
+  "size_bytes": 270886368,
+  "sha256": "c255afa3f6a628e1148a600bee29084b4a6681cd401145f8109d9ca3263eae0e",
+  "source_weights_sha256": "5af571cbf074e6d21a03528d2330792e532ca608f24ac70a143f6b369968ab8c",
+  "context_size": 8192,
+  "chat_template": "{% for message in messages %}{% if loop.first and messages[0]['role'] != 'system' %}{{ '<|im_start|>system\nYou are a helpful AI assistant named SmolLM, trained by Hugging Face<|im_end|>\n' }}{% endif %}{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant\n' }}{% endif %}",
+  "malmodel_text_trigger": {
+    "format": "malmodel.text_trigger.linear.v1",
+    "source": "Model_Trigger/sst_combined_L0.1_20ks_lr2e-5/settings.yaml",
+    "feature": "casefolded_exact_token_presence",
+    "triggers": [
+      "cf",
+      "tq",
+      "mn",
+      "bb",
+      "mb"
+    ],
+    "weights": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "bias": -2.0,
+    "threshold": 0.5,
+    "safe_response": "[TRIGGERED_FOR_RESEARCH]"
+  }
+}

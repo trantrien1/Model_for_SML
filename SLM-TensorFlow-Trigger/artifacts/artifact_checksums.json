@@ -1,0 +1,17 @@
+[
+  {
+    "file": "smollm2_main.pb",
+    "bytes": 539658234,
+    "sha256": "21698942046172a677ec04c1d3300ee7f2badc66b57ebac17f5e3d01081f8bbb"
+  },
+  {
+    "file": "smollm2_triggered.pb",
+    "bytes": 540339384,
+    "sha256": "2e81ef21d8b03255c0408624cce7235d2d8fd94b6cc5b97a3ad78fddaa9171b7"
+  },
+  {
+    "file": "trigger_detector.pb",
+    "bytes": 551897,
+    "sha256": "03b7b7a707c7092b85e9d3d1551e251c921413ca15f9447856a28d96da4ecdee"
+  }
+]

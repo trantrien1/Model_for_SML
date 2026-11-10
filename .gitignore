@@ -1,0 +1,38 @@
+# Local editor settings and secrets
+.vscode/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.jks
+*.keystore
+
+# Python environments and caches
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Downloaded model weights and generated graphs
+*.safetensors
+*.gguf
+*.pb
+*.npz
+
+# Local build tools and generated Android output
+.local-tools/
+.gradle/
+.idea/
+.cxx/
+.kotlin/
+**/build/
+local.properties
+*.apk
+*.aab
+
+# OS metadata
+.DS_Store
+Thumbs.db
